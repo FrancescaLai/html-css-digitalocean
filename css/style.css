@@ -56,8 +56,7 @@ body{
   padding: 10px;
 }
 
-.central_nav a:hover,
-.lateral_nav a:hover{
+a:hover{
   text-decoration: none;
 }
 
@@ -154,14 +153,8 @@ body{
   padding: 0px 10px;
 }
 
-
-
-
-
-
-
-@media screen and (max-width: 768px){
-  .logo_img{
-    max-width: calc(50% / 6);
-}
+.logo-section a{
+  display: block;
+  color: #579AFF;
+  padding-bottom: 20px;
 }
