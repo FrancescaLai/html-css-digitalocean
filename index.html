@@ -22,33 +22,63 @@
 </head>
 <body>
   <header>
-    <div class="container header_top">
-      <div class="row">
-        <div class="col-xs-2">
-          <img class="dig-ocean-logo" src="img/logo.png" alt="Digital Ocean Logo">
-        </div>
-        <div class="col-xs-5">
-          <nav class="central_nav">
-            <ul>
-              <li><a href="#">Products<i class="fas fa-angle-down"></i></a></li>
-              <li><a href="#">Customers</a></li>
-              <li><a href="#">Community<i class="fas fa-angle-down"></i></a></li>
-              <li><a href="#">Pricing</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="col-xs-5">
-          <nav class="lateral_nav">
-            <ul>
-              <li><a href="#">Docs</a></li>
-              <li><a href="#">Support<i class="fas fa-angle-down"></i></a></li>
-              <li><a href="#">Login</a></li>
-              <li><button type="button" name="button">Sign Up</button></li>
-            </ul>
-          </nav>
+    <!-- Header Top -->
+    <section class="header_top">
+      <div class="container ">
+        <div class="row">
+          <div class="col-xs-2">
+            <img class="dig-ocean-logo" src="img/logo.png" alt="Digital Ocean Logo">
+          </div>
+          <div class="col-xs-6">
+            <nav class="central_nav visible-lg-inline-block">
+              <ul>
+                <li><a href="#">Products<i class="fas fa-angle-down"></i></a></li>
+                <li><a href="#">Customers</a></li>
+                <li><a href="#">Community<i class="fas fa-angle-down"></i></a></li>
+                <li><a href="#">Pricing</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-xs-4 text-right">
+            <nav class="lateral_nav visible-lg-inline-block">
+              <ul>
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">Support<i class="fas fa-angle-down"></i></a></li>
+                <li><a href="#">Login</a></li>
+                <li><button type="button" name="button">Sign Up</button></li>
+              </ul>
+            </nav>
+            <button class=" btn btn_mobile hidden-lg" ><i class="fas fa-bars"></i></button>
+          </div>
+       </div>
+      </div>
+    </section>
+    <!-- Header Top -->
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 hero_left">
+            <h2>The simplest cloud platform for developers & teams</h2>
+            <p>We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more. We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more</p>
+          </div>
+          <div class="col-xs-6 hero_right text-center">
+            <div class="white-box">
+              <h4>Deploy your app in seconds.</h4>
+              <a href="#">Get started now.</a>
+              <form>
+                <input class="form-control" type="email" placeholder="Email">
+                <input class="form-control" type="password" placeholder="Password">
+                <button class="btn btn_account" type="submit" name="button">Creat your account</button>
+                <button class="btn btn_signup" type="submit" name="button">Sign up with google</button>
+              </form>
+              <p><small>By signing up you agree to the <a>Therms of Service</a></small></p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+    <!-- /Hero -->
   </header>
 
 </body>
