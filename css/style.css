@@ -41,6 +41,17 @@ h4{
   color: #5b6987;
 }
 
+.angle{
+display: inline-block;
+margin: 5px;
+font-size: 20px;
+}
+
+.fa-circle{
+  font-size: 13px;
+  color: #0D69FF;
+}
+
 /* Top Header */
 .header_top{
   background-color: #fff;
@@ -84,6 +95,7 @@ a:hover{
   background-color: #0069ff;
   background-image: url("../img/bg-hero.svg");
   background-size: cover;
+  background-position: bottom;
 }
 
 .white-box{
@@ -92,6 +104,7 @@ a:hover{
   background-color: #fff;
   border-radius: 3px;
   padding: 0px 5px;
+  margin-bottom: 30px;
 }
 
 .hero_right input,
@@ -190,16 +203,10 @@ a:hover{
   display: inline-block;
 }
 
-.angle{
-display: inline-block;
-margin: 5px;
-font-size: 20px;
+.carousel-section p{
+  display: block;
 }
 
-.fa-circle{
-  font-size: 13px;
-  color: #0D69FF;
-}
 /* /Carousel Section */
 
 /* Features Section */
@@ -241,6 +248,10 @@ font-size: 20px;
   margin-top: 5px;
 }
 
+/* Rockerbox */
+.rockerbox{
+  display: inline-block;
+}
 
 
 /* da 0 a 768px */
