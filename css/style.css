@@ -24,7 +24,8 @@ body{
   color: #0C65FF;
 }
 
-.small_container h5{
+.small_container h5,
+.features-section h5{
   font-weight: bold;
 }
 
@@ -32,6 +33,12 @@ body{
 h4{
   margin-top: 20px;
   margin-bottom: 10px;
+}
+
+.nested-section p,
+.carousel-section p,
+.features-section p{
+  color: #5b6987;
 }
 
 /* Top Header */
@@ -160,10 +167,6 @@ a:hover{
 /* /Logo Section */
 
 /* Nested Section */
-.nested-section p,
-.carousel-section p{
-  color: #5b6987;
-}
 
 .vertical-list li{
   list-style: none;
@@ -201,19 +204,24 @@ margin: 5px;
 font-size: 20px;
 }
 
-.carousel-section p{
-  margin: 10px 0px;
-  color: #000;
-}
-
-.carousel-section p:nth-child(2){
-  color: #5b6987;
-}
-
 .fa-circle{
   font-size: 13px;
   color: #0D69FF;
 }
+/* /Carousel Section */
+
+/* Features Section */
+.feat_img{
+  width: 10%;
+  padding-top: 25px;
+}
+
+
+
+
+
+
+
 
 
 /* da 0 a 768px */
