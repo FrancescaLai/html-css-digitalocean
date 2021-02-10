@@ -9,7 +9,7 @@ body{
 }
 
 /* Typo */
-.hero_left h2{
+.hero h2{
   font-size: 40px;
   font-weight: bold;
   color: #fff;
@@ -37,7 +37,8 @@ h4{
 
 .nested-section p,
 .carousel-section p,
-.features-section p{
+.features-section p,
+.rockerbox-text{
   color: #5b6987;
 }
 
@@ -50,6 +51,7 @@ font-size: 20px;
 .fa-circle{
   font-size: 13px;
   color: #0D69FF;
+  margin-top: 20px;
 }
 
 /* Top Header */
@@ -205,6 +207,7 @@ a:hover{
 
 .carousel-section p{
   display: block;
+  margin: 18px 0px 0px;
 }
 
 /* /Carousel Section */
@@ -249,8 +252,30 @@ a:hover{
 }
 
 /* Rockerbox */
+.rockerbox-section{
+  background-color: #F3F5F9;
+}
+
 .rockerbox{
   display: inline-block;
+  margin: 0 auto;
+  width: 45%;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 30px 5px;
+}
+
+.rockerbox img{
+  width: 30%;
+  margin-bottom: 15px;
+}
+
+.rockerbox-name{
+  color: black;
+}
+
+.rockerbox a{
+  display: block;
 }
 
 
