@@ -60,11 +60,12 @@ vertical-align: middle;
   background-color: #fff;
   height: 60px;
   line-height: 60px;
-  /* position: fixed;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 10; */
+  width: 100vw;
+  z-index: 10;
 }
 
 .dig-ocean-logo{
@@ -100,6 +101,7 @@ a:hover{
   background-image: url("../img/bg-hero.svg");
   background-size: cover;
   background-position: bottom;
+  margin-top: 60px;
 }
 
 .white-box{
@@ -304,6 +306,7 @@ a:hover{
 
 footer{
   background-color: #031C4E;
+  padding-bottom: 40px;
 }
 
 #small_logo{
@@ -347,8 +350,12 @@ color: #fff;
 }
 
 .shark-box{
-  position: relative;
+  position: fixed;
+  bottom: 1px;
+  right:10px;
+  width: 100%;
   border-radius: 3px;
+  z-index: 10;
 }
 
 .shark-box p{
