@@ -46,6 +46,7 @@ h4{
 display: inline-block;
 margin: 5px;
 font-size: 20px;
+vertical-align: middle;
 }
 
 .fa-circle{
@@ -263,6 +264,7 @@ a:hover{
   background-color: #fff;
   border-radius: 3px;
   padding: 30px 5px;
+  vertical-align: middle;
 }
 
 .rockerbox img{
@@ -296,6 +298,15 @@ a:hover{
 .getstart-section h4{
   color: #fff;
 }
+
+
+
+.fa-angle-left{
+  float: left;
+}
+
+
+
 
 
 
