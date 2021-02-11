@@ -352,9 +352,9 @@ footer p:nth-of-type(2){
 
 /* da 0 a 768px */
 @media screen and (max-width: 768px) {
-.white-box{
-  margin: 0;
-}
+  #digocean-logo {
+      width: 100px;
+  }
 
 .logo_img {
   width: calc((100% / 2) - 4px);
@@ -363,12 +363,20 @@ footer p:nth-of-type(2){
 }
   /* da 0 a 992 */
 @media screen and (max-width: 992px){
-  .feat_img{
+.white-box{
+  width: 100%;
+}
+
+.feat_img{
     width: 5%;
   }
 
 .region-section .col-xs-12:last-child{
   margin-top: 40px;
+}
+
+.helper{
+  display: none;
 }
 
 }
