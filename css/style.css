@@ -8,14 +8,11 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-/* Typo */
-.hero h2{
-  font-size: 40px;
-  font-weight: bold;
-  color: #fff;
-}
-
-.hero p{
+/* Typo Mix*/
+h1,
+.hero p,
+.getstart-section h2,
+footer h5 {
   color: #fff;
 }
 
@@ -24,21 +21,14 @@ body{
   color: #0C65FF;
 }
 
+h1,
 .small_container h5,
 .features-section h5{
   font-weight: bold;
 }
 
 /* Mix */
-h4{
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-.nested-section p,
-.carousel-section p,
-.features-section p,
-.rockerbox-text{
+.lightgrey-text{
   color: #5b6987;
 }
 
@@ -55,11 +45,27 @@ vertical-align: middle;
   margin-top: 20px;
 }
 
+.custom_btn{
+  background-color: #fff;
+  color: #579AFF;
+  border-radius: 3px;
+  padding: 3px 5px;
+  line-height: normal;
+  border: 1px solid #579AFF;
+}
+
+section, footer{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
 /* Top Header */
 .header_top{
   background-color: #fff;
   height: 60px;
   line-height: 60px;
+  padding: 0px;
   position: fixed;
   top: 0;
   left: 0;
@@ -68,7 +74,7 @@ vertical-align: middle;
   z-index: 10;
 }
 
-.dig-ocean-logo{
+#digocean-logo{
   width: 100%;
 }
 
@@ -87,14 +93,10 @@ a:hover{
   text-decoration: none;
 }
 
-.lateral_nav button{
-  background-color: #fff;
-  border: 1px solid #579AFF;
-  color: #579AFF;
-  border-radius: 3px;
-  padding: 3px 5px;
-  line-height: normal;
+.fa-angle-down{
+  padding-left: 3px;
 }
+
 /* Hero */
 .hero{
   background-color: #0069ff;
@@ -106,22 +108,23 @@ a:hover{
 
 .white-box{
   margin: 0 auto;
-  width: 55%;
+  width: 65%;
   background-color: #fff;
   border-radius: 3px;
-  padding: 0px 5px;
+  padding: 10px 5px;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.hero_right input,
+.hero_right .form-control,
 .hero_right .btn{
   margin: 5px 0px;
 }
 
 .hero_right .btn_account{
+  background-color: #579AFF;
   padding: 3px;
   width: 100%;
-  background-color: #579AFF;
   border-style: none;
   border-radius: 3px;
   color: #fff;
@@ -132,7 +135,7 @@ a:hover{
   background-color: #fff;
   padding: 3px;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 3px;
   box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
   color: #5b6987;
   font-weight: bold;
@@ -145,24 +148,17 @@ a:hover{
 .hero_right p{
   color: black;
   padding: 0px 30px;
-  font-size: 70%;
 }
 
 .hero_right small a{
   text-decoration: underline;
   margin-top: 5px;
 }
-
- /* Hero */
+ /* /Hero */
 
  /* Logo Section */
-.logo-section{
+.lightgrey-bg{
   background-color: #F3F5F9;
-}
-
-.logo-section h6{
-  color: #5b6987;
-  margin-top: 40px;
 }
 
 .logo_img{
@@ -170,15 +166,13 @@ a:hover{
   padding: 0px 10px;
 }
 
-.logo-section a{
+.logo-section a, .rockerbox a:first-of-type{
   display: block;
   color: #579AFF;
-  padding-bottom: 20px;
 }
 /* /Logo Section */
 
 /* Nested Section */
-
 .vertical-list li{
   list-style: none;
   border-left: 1px solid #5b6987;
@@ -190,41 +184,25 @@ a:hover{
   margin: auto;
   margin-top: 30px;
 }
-
-.small_container a{
-  color: #5b6987;
-}
-
 /* /Nested Section */
 
 /* Carousel Section */
-.carousel-section{
-  background-color: #F3F5F9;
-  padding: 30px 0px;
-}
-
 #carousel_img{
   max-width: 40%;
-  margin-top: 20px;
-  display: inline-block;
+  margin: 10px 0px 20px;
 }
 
-.carousel-section p{
-  display: block;
-  margin: 18px 0px 0px;
+.carousel-section a{
+  vertical-align: super;
 }
-
 /* /Carousel Section */
 
-/* Features Section */
-.features-section{
-  padding-bottom: 30px;
-}
-
+/* Feature Section */
 .feat_img{
   width: 10%;
   padding-top: 25px;
 }
+/* /Feature Section */
 
 /* Region Section */
 .region-section{
@@ -234,15 +212,11 @@ a:hover{
   background-position: center;
   color: #fff;
   background-color: #031B4E;
-  padding: 30px;
 }
 
-.row_table .sigla, p{
-  display: inline-block;
-}
-
-.row_table .sigla{
+.row_table span, p{
   margin-right: 20px;
+  display: inline-block;
 }
 
 .row_table .test-speed{
@@ -254,13 +228,10 @@ a:hover{
   border-bottom: 1px solid #fff;
   margin-top: 5px;
 }
+/* /Region Section */
 
-/* Rockerbox */
-.rockerbox-section{
-  background-color: #F3F5F9;
-}
-
-.rockerbox{
+/* Rockerbox Section */
+.carousel-content{
   display: inline-block;
   margin: 0 auto;
   width: 45%;
@@ -270,16 +241,12 @@ a:hover{
   vertical-align: middle;
 }
 
-.rockerbox img{
+.carousel-content img{
   width: 30%;
   margin-bottom: 15px;
 }
 
-.rockerbox-name{
-  color: black;
-}
-
-.rockerbox a{
+.carousel-content a{
   display: block;
 }
 
@@ -289,42 +256,30 @@ a:hover{
   padding: 30px 0px 50px;
 }
 
-.btn{
-  background-color: #fff;
-  color: #579AFF;
-  border-radius: 3px;
-  padding: 3px 5px;
-  margin-top: 15px;
-  font-size: 12px;
+.getstart-section .custom_btn{
+  border: 0px;
 }
-
-.getstart-section h4{
-  color: #fff;
-}
+/* /GetStarted Section*/
 
 /* Footer */
-
 footer{
   background-color: #031C4E;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 #small_logo{
-  width: 3%;
+  width: 10%;
   padding-top: 20px;
   display: block;
 }
 
 #small_logo + p{
   color: #A6ADBD;
-  margin: 0px;
+  margin-bottom: 0px;
 }
 
 footer p:nth-of-type(2){
   display: block;
-  color: #5b6987;
-  margin: 0px;
-  margin-bottom: 10px;
 }
 
 #logo-list li{
@@ -333,16 +288,13 @@ footer p:nth-of-type(2){
   margin-right: 8px;
 }
 
-footer h5{
-color: #fff;
-}
-
 .footer-list li,
 .footer-list a{
+  padding: 1px;
   list-style: none;
   color: #A6ADBD;
 }
-
+/* /Footer */
 
 /* Helper */
 .helper{
@@ -355,15 +307,14 @@ color: #fff;
   right:10px;
   width: 100%;
   border-radius: 3px;
-  z-index: 10;
 }
 
 .shark-box p{
   position: absolute;
   bottom: 13px;
-  right: 145px;
+  right: 80px;
   background-color: #fff;
-  padding: 5px 3px;
+  padding: 5px 5px;
   border-radius: 3px;
 }
 
@@ -371,14 +322,14 @@ color: #fff;
   color: #fff;
   position: absolute;
   bottom: 30px;
-  right: 140px;
+  right: 95px;
 }
 
 .shark-box img{
   position: absolute;
   float: left;
-  bottom:20px;
-  right: 75px;
+  bottom: 20px;
+  right: 40px;
   width: 4%;
   background-color: #0D6AFF;
   border-radius: 3px;
@@ -390,11 +341,11 @@ color: #fff;
   border: 3px solid #fff;
   border-radius: 50%;
   position: absolute;
-  right: 67px;
-  bottom: 55px;
+  right: 23px;
+  bottom: 50px;
   height: 30px;
   width: 30px;
-  line-height: 30px;
+  line-height: 24px;
   color: #fff;
   text-align: center;
 }
