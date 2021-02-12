@@ -312,7 +312,7 @@ footer p:nth-of-type(2){
 .shark-box p{
   position: absolute;
   bottom: 13px;
-  right: 80px;
+  right: 85px;
   background-color: #fff;
   padding: 5px 5px;
   border-radius: 3px;
@@ -322,7 +322,7 @@ footer p:nth-of-type(2){
   color: #fff;
   position: absolute;
   bottom: 30px;
-  right: 95px;
+  right: 100px;
 }
 
 .shark-box img{
