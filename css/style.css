@@ -330,7 +330,7 @@ footer p:nth-of-type(2){
   float: left;
   bottom: 20px;
   right: 40px;
-  width: 4%;
+  width: 50px;
   background-color: #0D6AFF;
   border-radius: 3px;
   padding: 4px 2px;
@@ -341,8 +341,8 @@ footer p:nth-of-type(2){
   border: 3px solid #fff;
   border-radius: 50%;
   position: absolute;
-  right: 23px;
-  bottom: 50px;
+  right: 24px;
+  bottom: 51px;
   height: 30px;
   width: 30px;
   line-height: 24px;
@@ -360,6 +360,10 @@ footer p:nth-of-type(2){
   width: calc((100% / 2) - 4px);
 }
 
+.helper{
+  display: none;
+}
+
 }
   /* da 0 a 992 */
 @media screen and (max-width: 992px){
@@ -373,10 +377,6 @@ footer p:nth-of-type(2){
 
 .region-section .col-xs-12:last-child{
   margin-top: 40px;
-}
-
-.helper{
-  display: none;
 }
 
 }
